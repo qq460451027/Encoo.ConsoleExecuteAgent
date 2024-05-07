@@ -1,0 +1,26 @@
+！！请保留.config文件  先修改App.config
+配置文件见文件可执行文件同名config文件     如ConsoleExcuteAgent.exe.config   IDE内为App.config
+	主要配置：
+	userName   用户名，一般为邮箱
+	password	密码，base64转换后的，避免特殊符号密码xml解析异常
+	departmentId	部门ID,可在控制台的url中找到，按实际调整
+	
+	一般不需要变动的配置：
+	consoleUrl	控制台地址
+	companyId	公司ID，一般不需要更改，除非控制台变动，也可以在url或者header中找到
+
+
+
+20240507修改
+1.清理配置
+
+20221109更新
+1.增加录屏勾选框，默认勾选状态
+
+20220817更新
+1.增加备注，红色显示
+
+20220816更新
+1.增加执行状态显示
+2.增加执行后的确认框
+
